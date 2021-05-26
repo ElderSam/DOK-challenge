@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------------------- HEADER ------------------- */
+header {
+    background: url('./assets/images/carros_avenida.png');
+    /* width: 100%; */
+    min-height: 720px;
+    margin-left: -150px;
+}
+
+.logo {
+    /* logo DOK 1 */
+    position: absolute;
+    width: 200px;
+    height: 93.1px;
+    left: 45%;
+    top: 132px;
+    /* margin-left: 43vw;
+    margin-right: auto; */
+}
+
+header button {
+
+    position: absolute;
+    width: 288px;
+    height: 81px;
+    right: 10vw;
+    top: 127px;
+    background: linear-gradient(90deg, #12D01A 17.21%, #12D01A 78.69%);
+    border-radius: 50px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+    cursor: pointer
+}
+
+.foto-pessoa {
+/* foto_matheus */
+    position: relative;
+    width: 466px;
+    height: 603px;
+    left: 251px;
+    top: 121px;
+}
+
+header h1 {
+    position: absolute;
+    width: 915px;
+    height: 144px;
+    right: 2vw;
+    top: 399px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 143.5%; /* or 86px */
+
+    color: #E12C30;
+}
