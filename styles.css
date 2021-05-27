@@ -100,12 +100,6 @@ header h1 {
 }
 
 .section2 h2 {
-    /* position: absolute;
-    width: 1398px;
-    height: 57px;
-    left: 261px;
-    top: 1432px; */
-
     font-weight: bold;
     font-size: 42px;
     line-height: 57px;
@@ -114,10 +108,8 @@ header h1 {
     
 }
 .section2 #flex-div div {
-/* 
-    width: 600px;
-    height: 25px;
-    background-color: black; */
+    background: #F9F9F9;
+    border-radius: 21.325px;
 }
 
 .section2 #flex-div .icon-div {
