@@ -39,6 +39,7 @@ header button {
 }
 
 header h1 {
+    font-size: 60px;
     width: 915px;
     height: 144px;
     right: 2vw;
@@ -100,12 +101,8 @@ header h1 {
 }
 
 .section2 h2 {
-    font-weight: bold;
-    font-size: 42px;
     line-height: 57px;
-    
-    color: #676767;
-    
+    color: #676767;   
 }
 .section2 #flex-div div {
     background: #F9F9F9;
@@ -131,4 +128,32 @@ header h1 {
     line-height: 41px;
     color: #676767;
     max-width: 390px;
+}
+
+/* -------------------------------- SECTION 3 -------------------------------- */
+.section3 {
+    position: absolute;
+    width: 100%;
+    height: 602px;
+    left: 0px;
+    top: 2189px;
+    background: #E12C30;
+}
+
+.section3 div {
+    max-width: 830px;   
+}
+
+.section3 h2 {
+    font-size: 60px;
+    line-height: 143.5%; /* or 86px */
+    color: #FFFFFF;
+}
+
+.section3 h3 {
+    font-size: 60px;
+    width: 900px;
+    height: 144px;
+    line-height: 143.5%; /* or 86px */
+    color: #FFFFFF;
 }
