@@ -5,6 +5,14 @@ body {
     font-family: 'Open Sans';
 }
 
+button, input[type=submit] {
+    background: linear-gradient(90deg, #12D01A 17.21%, #12D01A 78.69%);
+    border-radius: 50px;
+
+    line-height: 41px;
+    cursor: pointer;    
+}
+
 /* -------------------------------- HEADER -------------------------------- */
 header {
     background: url('./assets/images/carros_avenida.png');
@@ -24,11 +32,6 @@ header button {
     height: 81px;
     right: 10vw;
     top: 127px;
-    background: linear-gradient(90deg, #12D01A 17.21%, #12D01A 78.69%);
-    border-radius: 50px;
-
-    line-height: 41px;
-    cursor: pointer;
 }
 
 .foto-pessoa { /* foto_matheus */
@@ -84,14 +87,10 @@ header h1 {
     margin-bottom: 25px;
 }
 
-.section1 div form .submit-btn {
-    width: 100%;  
+.section1 div form .submit-btn {  
     height: 81px;
-    line-height: 41px;
     padding: 0 18px;
-
-    background: linear-gradient(90deg, #12D01A 17.21%, #12D01A 78.69%);
-    border-radius: 50px;
+    border-radius: 150px;
 }
 
 /* -------------------------------- SECTION 2 -------------------------------- */
@@ -132,7 +131,6 @@ header h1 {
 
 /* -------------------------------- SECTION 3 -------------------------------- */
 .section3 {
-    position: absolute;
     width: 100%;
     height: 602px;
     left: 0px;
@@ -156,4 +154,46 @@ header h1 {
     height: 144px;
     line-height: 143.5%; /* or 86px */
     color: #FFFFFF;
+}
+
+/* -------------------------------- SECTION 4 -------------------------------- */
+.section4 {
+    width: 100%;
+    height: 602px;
+    left: 0px;
+    top: 2800px;
+}
+
+#flex1-section4 > div{
+    max-width: 650px;
+}
+
+#flex1-section4 {
+    line-height: 49px;
+    text-align: justify;
+}
+
+#flex1-section4 p:nth-child(1), p:nth-child(3)  {
+    color: #676767;
+}
+
+#flex1-section4 p:nth-child(2) {
+    color: #E12C30;
+}
+
+.section4 h2 {
+    position: relative;
+    line-height: 57px;
+    color: #676767;
+}
+
+#texto2-section4 {
+    max-width: 700px;
+    line-height: 49px;
+    text-align: justify;
+    color: #676767;
+}
+
+.section4 #flex2-section4 button {
+    width: 834px;
 }
