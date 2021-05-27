@@ -5,7 +5,7 @@ body {
     font-family: 'Open Sans';
 }
 
-/* ------------------- HEADER ------------------- */
+/* -------------------------------- HEADER -------------------------------- */
 header {
     background: url('./assets/images/carros_avenida.png');
     min-height: 720px;
@@ -48,20 +48,21 @@ header h1 {
     color: #E12C30;
 }
 
-.rectangle {
+/* -------------------------------- SECTION 1 -------------------------------- */
+.section1 {
     width: 100%;
     height: 619px;
     top: 723px;
     background: #E12C30;
 }
 
-.video {
+.section1 .video {
     margin-top: 137px;
     height: 345px;
     /* width: auto; */
 }
 
-.section1 {
+.section1 div {
     max-height: 464px;
     width: 650px;
     top: 80px;
@@ -71,7 +72,7 @@ header h1 {
     padding: 61px 59px;
 }
 
-form input {
+.section1 div form input {
     width: 557px;
     height: 106px;
     padding: 0 36px;
@@ -82,7 +83,7 @@ form input {
     margin-bottom: 25px;
 }
 
-.submit-btn {
+.section1 div form .submit-btn {
     width: 100%;  
     height: 81px;
     line-height: 41px;
