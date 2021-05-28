@@ -25,8 +25,19 @@
 
         <div class="d-flex flex-column position-relative">
             <form action="">
-                <input class="fw-bold bg-white fs-4" type="text" name="" id="" placeholder="Informe seu nome">
-                <input class="fw-bold bg-white fs-4" type="text" name="" id="" placeholder="Informe seu email">
+                <input class="fw-bold bg-white fs-4" type="text" name="name" id="name" placeholder="Informe seu nome">
+                <div id="name-message" hidden="true">
+                    <strong class="fs-5 fs-sm-6 position-absolute text-danger bg-white strong-input">Por favor informe nome completo</strong>
+                    <img class="position-absolute alert-icon" src="./assets/images/alert_icon.svg" alt="alerta">
+                </div>
+
+                </input>
+                <input class="fw-bold bg-white fs-4" type="text" name="email" id="email" placeholder="Informe seu email">
+                    <div id="email-message" hidden="true">
+                        <strong class="fs-5 fs-sm-6 position-absolute text-danger bg-white strong-input">Por favor informe um Email Válido</strong>
+                        <img class="position-absolute alert-icon" src="./assets/images/alert_icon.svg" alt="alerta">
+                    </div>
+                </input>
                 <input class="fw-bold submit-btn fs-lg-3 text-white" type="submit" value="Sim, quero ser um afiliado">
             </form>
         </div>
@@ -98,7 +109,7 @@
             </div>
        </div>
 
-        <div id="flex2-section4" class="d-flex flex-row flex-wrap justify-content-center mt-5 py-5">
+        <div id="flex2-section4" class="d-flex flex-row flex-wrap justify-content-center mt-5 mb-sm-5 py-5">
             <h2 class="fs-2 fw-bold text-center">Seja um afiliado e aproveite todo o potencial deste público!</h2>
             <div class="d-flex flex-row flex-wrap my-5">
                 <div class="me-5">
@@ -112,10 +123,11 @@
                         Faça parte do time do despachante que mais cresce no Brasil, com 15 anos de experiência no mercado de veículos paulista.</p>  
                 </div>
             </div>
-            <button class="my-4 p-3 fs-3 fw-bold text-white text-uppercase">QUERO SER UM AFILIADO</button>
+            <button class="my-4 mb-sm-5 p-3 fs-3 fw-bold text-white text-uppercase">QUERO SER UM AFILIADO</button>
         </div>
     </section>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

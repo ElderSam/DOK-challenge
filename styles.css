@@ -77,7 +77,7 @@ header h1 {
     /* width: auto; */
 }
 
-.section1 div {
+.section1 > div {
     max-height: 464px;
     width: 650px;
     top: 80px;
@@ -87,7 +87,8 @@ header h1 {
     padding: 61px 59px;
 }
 
-.section1 div form input {
+.section1 > div form input {
+    border: none;
     width: 557px;
     height: 106px;
     padding: 0 36px;
@@ -97,6 +98,20 @@ header h1 {
     color: var(--my-text-grey);
     margin-bottom: 25px;
 }
+
+.strong-input {
+    margin-top: -93px;
+    margin-left: 38px;
+}
+
+.alert-icon {
+    margin-top: -90px;
+    right: 60px;
+}
+
+/* #email strong {
+    
+} */
 
 .section1 div form .submit-btn {  
     height: 81px;
@@ -260,20 +275,40 @@ header h1 {
         max-width: 90%;
     }
 
-    .section1 div {
+    .section1 > div {
         width: 349px;
         height: 425px;
         top: 20px;
         padding: 61px 22px;
     }
 
-    .section1 div form input {
+    .section1 > div form input {
         width: 304px;
         height: 88px;
         padding: 0 36px;
     }
 
-    .section1 div form .submit-btn { 
+    .strong-input {
+        width: 223px;
+        margin-top: -99px;
+        margin-left: 36px;
+    }
+
+    .alert-icon {
+        margin-top: -83px;
+        right: 50px; 
+    }
+
+    /*#name strong {
+        margin-top: -92px;
+        margin-left: 38px;
+    }*/
+
+    #email strong {
+
+    }
+
+    .section1 > div form .submit-btn { 
         height: 81px;
         top: 1410px;
     }
