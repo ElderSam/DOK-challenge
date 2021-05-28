@@ -17,15 +17,17 @@ body {
 button, input[type=submit] {
     background: linear-gradient(90deg, var(--my-green) 17.21%, var(--my-green) 78.69%);
     border-radius: 50px;
+    border: none;
 
     line-height: 41px;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 /* -------------------------------- HEADER -------------------------------- */
 header {
     background: url('./assets/images/carros_avenida.png');
     min-height: 720px;
+    width: 100%;
     margin-left: -150px;
 }
 
@@ -103,18 +105,15 @@ header h1 {
 }
 
 /* -------------------------------- SECTION 2 -------------------------------- */
-
-.section2 {
-    top: 622px;
-}
-
 .section2 h2 {
     line-height: 57px;
     color: var(--my-text-grey);   
 }
-.section2 #flex-div div {
+
+.section2 #flex-div > div > div {
     background: var(--my-white2);
     border-radius: 21.325px;
+    padding: 37px;
 }
 
 .section2 #flex-div .icon-div {
@@ -205,4 +204,234 @@ header h1 {
 
 .section4 #flex2-section4 button {
     width: 834px;
+}
+
+/* ----------------------------------- RESPONSIVITY ----------------------------------- */
+
+@media only screen and (max-width: 1500px) {
+    /* -------------------------------- HEADER -------------------------------- */
+    header {
+        margin-left: 0px;
+        display: flex;
+        flex: column;
+        align-items: center;
+        height: 850px;
+    }
+
+    .logo {
+        position: relative;
+        width: 111px;
+        height: 52px;
+        top: 38px;
+    }
+
+    header h1 {
+        /* position: relative; */
+        width: 100%;
+        top: 129px;
+        left: 19px;
+        padding-right: 30px;
+
+        font-weight: 800;
+        font-size: 35px;
+        text-align: center;
+    }    
+
+    header button {
+        top: 357px;
+    }
+        
+    .foto-pessoa { /* foto_matheus */
+        width: 293px;
+        height: 379px;
+        left: 32px;
+        top: 236px;
+    }
+
+    /* -------------------------------- SECTION 1 -------------------------------- */
+    .section1 {
+        height: 800px;
+    }
+
+    .section1 .video {
+        margin: 34px 32px;
+        height: auto;
+        width: 311px;
+        max-width: 90%;
+    }
+
+    .section1 div {
+        width: 349px;
+        height: 425px;
+        top: 20px;
+        padding: 61px 22px;
+    }
+
+    .section1 div form input {
+        width: 304px;
+        height: 88px;
+        padding: 0 36px;
+    }
+
+    .section1 div form .submit-btn { 
+        height: 81px;
+        top: 1410px;
+    }
+
+    /* -------------------------------- SECTION 2 -------------------------------- */
+
+    .section2 {
+        top: -20px;
+    }
+
+    .section2 h2 {
+        text-align: center;
+        width: 304px;
+        margin: 0 auto;
+        line-height: 41px;
+        padding-bottom: -100px;
+    }
+
+    .section2 #flex-div {
+        width: 100%;
+        padding-top: -60px;
+        padding: 0 33px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .section2 #flex-div > div:nth-child(1) {
+        margin-bottom: -43px;
+    }
+
+    .section2 #flex-div > div {
+        text-align: center;
+        padding: 44px;
+        font-size: 24px;
+        background-color: white;
+    }
+
+    .section2 #flex-div .icon-div {
+        width: 120px;
+        height: 120px;
+        border-radius: 150px;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .icon-div img {
+        margin: 0px;
+        width: 100%;
+        padding: 18px;
+    }
+
+    .icon-div #img-presente {
+        padding-left: 15px;
+    }
+
+    .section2 #subdiv {
+        background-color: greenyellow;
+    }
+        
+    /* -------------------------------- SECTION 3 -------------------------------- */
+    .section3 {
+        height: auto;
+        padding-bottom: 20px;
+        top: 4100px;
+    }
+
+    .section3 h2 {
+        margin: 56px;
+        margin-bottom: 0px;
+        margin-bottom: -40px;
+        width: 266px;
+        height: 285px;
+
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section3 h3 {
+        width: 242px;
+        height: 144px;
+        margin: 0 auto;
+        
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .section3 img {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 327px;
+        height: 288px;
+    }
+
+    /* -------------------------------- SECTION 4 -------------------------------- */
+    .section4 {
+        height: 602px;
+        left: 0px;
+        top: 4850px;
+        padding-bottom: 30px;
+    }
+
+    #flex1-section4 {
+        position: relative;
+        min-width: 330px;
+        height: 475px;
+        margin-left: 23px;
+    
+        font-size: 18px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    #carros_parque-img {
+        width: 371px;
+        height: auto;
+        margin-left: -25px;
+    }
+
+    .section4 h2 {
+        top: 600px;
+        width: 265px;
+        height: 205px;
+
+        font-size: 30px;
+        line-height: 41px;
+        text-align: center;
+        margin-bottom: -10px;
+    }
+
+    #carteira-img {
+        position: relative;
+        top: 574px;
+        width: 285px;
+        height: 354px;
+        margin-left: 45px;
+
+    }
+
+    #texto2-section4 {
+        /* background-color: red; */
+        position: relative;
+        top: 600px;
+    
+        width: 321px;
+    height: 420px;
+    left: 27px;
+
+    font-size: 18px;
+    line-height: 25px;
+    }
+
+    .section4 #flex2-section4 button {
+        position: relative;
+        top: 570px;
+        margin: 0 25px;
+        margin-bottom: 60px;
+    }
 }
